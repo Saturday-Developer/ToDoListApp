@@ -104,7 +104,7 @@ export default class Work extends Component {
     return (
       <View style={{backgroundColor: '#000', flex: 1}}>
         <Button title="Check Work Items" onPress={this.toggleWorkItems} />
-        <ScrollView contentContainerStyle={{flex: 1}}>
+        <ScrollView>
           {workItems}
           {addWorkItem}
         </ScrollView>
